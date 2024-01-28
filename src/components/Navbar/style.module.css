@@ -1,0 +1,48 @@
+.navbarContainer {
+    width: 100%;
+    height: 40px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.logoSearchContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+/* Nav Catagory */
+.navCatagoryContainer {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navIcon {
+    font-size: 25px;
+}
+
+.navIconMessenger {
+    font-size: 20px;
+}
+
+/* Profile Detail */
+.profileDetailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

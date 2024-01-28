@@ -1,0 +1,32 @@
+.friendCardContainer {
+    padding: 10px;
+    border: 1px solid rgba(131, 131, 131, 0.568);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.friendProfileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.friendDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.friendName {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 500;
+}
+
+.frinedMutual {
+    font-size: 16px;
+    color: #8a8a8a;
+}

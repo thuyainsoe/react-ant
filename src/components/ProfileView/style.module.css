@@ -1,0 +1,121 @@
+.profileViewContainer {
+    width: 80%;
+    margin: auto;
+    height: 70vh;
+}
+
+.coverContainer {
+    height: 70%;
+    width: 100%;
+    background-color: #c7c7c7;
+}
+
+/* Profile Image */
+.profileCatagoryContainer {
+    height: 16%;
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    padding: 0px 20px 25px 40px;
+    border-bottom: 1px solid #c7c7c7;
+    justify-content: space-between;
+
+}
+
+.imageAndNameContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.profileImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.nameAndMutual {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.nameAndMutual h2 {
+    font-size: 30px;
+}
+
+/* Activity like message and friend request */
+
+.activityContainer {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.isFriendorNot, .messageButton {
+    font-family: Helvetica, Arial, sans-serif;
+    height: 36px;
+    width: 100px;
+    background-color: #e4e6eb;
+    gap: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageButton {
+    background-color: #0866ff;
+    color: white;
+}
+
+.dropdownActivity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 48px;
+    background-color: #e4e6eb;
+    border-radius: 10px;
+}
+
+.activityIcon {
+    font-size: 17px;
+}
+
+.activityIconMessenger {
+    font-size: 15px;
+}
+
+.activityIconDropdown {
+    font-size: 14px;
+}
+
+/* Page Tabs */
+
+.pageTabsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.pageTabsContainer ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    padding: 0px 20px 0px 40px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.pageTabsContainer ul li {
+    padding: 10px 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.pageActive {
+    border-bottom: 4px solid blue;
+}
